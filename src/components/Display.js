@@ -19,6 +19,7 @@ const Display = ({ input, setInput, answer }) => {
               type="text"
               name="input"
               className="input"
+              data-cy="initial-display"
               style={{ padding: "29px" }}
               value={input}
               placeholder="0"
@@ -34,6 +35,7 @@ const Display = ({ input, setInput, answer }) => {
               type="text"
               name="input"
               className="value"
+              data-cy="value-display"
               value={input}
               placeholder="0"
               maxLength={12}
@@ -42,6 +44,7 @@ const Display = ({ input, setInput, answer }) => {
             <input
               type="text"
               name="value"
+              data-cy="input-display"
               className="input"
               value={answer}
               disabled

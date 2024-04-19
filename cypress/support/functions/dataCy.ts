@@ -1,0 +1,1 @@
+export const getDataCy = (dataCy: string) => `[data-cy="${dataCy}"]`;
